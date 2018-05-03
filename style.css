@@ -1,0 +1,50 @@
+body, html {
+	width: 100%;
+	height: 100%;
+}
+
+
+header.startup {
+	background-position: center;
+  	background-image: url("startup.jpg");
+  	background-size: cover;
+  	height: 100%;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+.faded {
+  color: rgba(255, 255, 255, 0.8); 
+}
+
+header {
+	font-weight: 700;
+}
+
+h1 {
+	transition: 1s;
+}
+
+h1:hover {
+	transform: scale(1.1);
+}
+
+hr {
+	margin-top: 30px;
+	margin-bottom: 30px;
+  max-width: 200px;
+  border-width: 3px;
+  border-color: #B60000; 
+}
+
+.btn-danger {
+	transition: 0.5s;
+  border-radius: 300px;
+}
+
+.btn-danger:hover {
+ 	transform: scale(1.1);
+ }
